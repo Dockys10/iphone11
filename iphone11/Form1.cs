@@ -28,6 +28,9 @@ namespace iphone11
             {
                 int text = Convert.ToInt32(textBox1.Text);
                 int text1 = Convert.ToInt32(textBox2.Text);
+                label1.Text = "xd"+(text + text1);
+                label2.Text = "nasobeni" + (text * text1);
+                label3.Text = "odcitani" + (text - text1);
             }
         }
     }
