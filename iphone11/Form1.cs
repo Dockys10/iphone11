@@ -16,5 +16,19 @@ namespace iphone11
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text==""||textBox2.Text=="")
+            {
+                label1.Text = "asdf";
+
+            }
+            else
+            {
+                int text = Convert.ToInt32(textBox1.Text);
+                int text1 = Convert.ToInt32(textBox2.Text);
+            }
+        }
     }
 }
